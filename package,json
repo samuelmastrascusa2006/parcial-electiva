@@ -1,0 +1,29 @@
+{
+  "name": "parcial-calidad-software",
+  "version": "1.0.0",
+  "description": "Proyecto para parcial de Calidad de Software Avanzado",
+  "main": "index.js",
+  "scripts": {
+    "build": "node -e \"console.log('Build completado exitosamente')\"",
+    "lint": "eslint src/ tests/",
+    "test": "jest",
+    "test:coverage": "jest --coverage --coverageThreshold='{\"global\":{\"lines\":85,\"functions\":85,\"branches\":85,\"statements\":85}}'"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ]
+  },
+  "keywords": ["ci-cd", "testing", "coverage", "github-actions"],
+  "author": "Estudiante Calidad Software",
+  "license": "MIT"
+}
