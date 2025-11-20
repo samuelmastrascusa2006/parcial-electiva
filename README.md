@@ -1,4 +1,4 @@
-#  Parcial Calidad de Software Avanzado
+#  Parcial electiva
 
 Proyecto de ejemplo para el parcial de Calidad de Software Avanzado implementando un pipeline CI/CD completo con GitHub Actions.
 ##  Descripción
@@ -181,3 +181,4 @@ Enfoque en uso efectivo y responsable
 Énfasis en productividad y calidad
 
 Responsabilidad sobre el código entregado
+
